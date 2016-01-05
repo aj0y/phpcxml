@@ -5,8 +5,8 @@ namespace cxml;
 use cxml\exceptions\CXMLException;
 use cxml\exceptions\EmptyRequestException;
 use cxml\requestheaders\Header;
-use cxml\requests\OrderRequest;
 use cxml\requests\Request;
+use Exception;
 
 /**
  * Class CXML
@@ -51,6 +51,7 @@ class CXML
   /**
    *
    * @throws CXMLException
+   * @throws Exception
    */
   public function send()
   {

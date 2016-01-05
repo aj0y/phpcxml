@@ -8,5 +8,14 @@ namespace cxml\requests;
  */
 class Request
 {
+  /** @var string  */
+  protected $xml = '';
 
+  /**
+   * @return string
+   */
+  public function toXML()
+  {
+    return '';
+  }
 }
