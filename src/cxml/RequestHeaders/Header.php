@@ -3,10 +3,10 @@
 namespace cxml\requestheaders;
 
 /**
- * Class OrderRequestHeader
+ * Class Header
  * @package cxml\requestheaders
  */
-class OrderRequestHeader extends Header
+class Header
 {
 
 }

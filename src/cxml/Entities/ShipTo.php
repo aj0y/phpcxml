@@ -3,9 +3,10 @@
 namespace cxml\entities;
 
 /**
- * Class ItemDetail
+ * Class ShipTo
  * @package cxml\entities
  */
-class ItemDetail extends Entity
+class ShipTo extends Entity
 {
+
 }

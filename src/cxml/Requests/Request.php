@@ -1,12 +1,13 @@
 <?php
 
+
 namespace cxml\requests;
 
 /**
- * Class OrderRequest
+ * Class Request
  * @package cxml\requests
  */
-class OrderRequest extends Request
+class Request
 {
 
 }
