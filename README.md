@@ -1,6 +1,6 @@
 PHP-CXML
 ==========================
-A PHP library to deal with cXML.
+A PHP library to deal with cXML 1.2 (http://cxml.org/).
 
 - PSR compatible
 
