@@ -8,5 +8,11 @@ namespace cxml\entities;
  */
 class Address extends Entity
 {
-  
+  /**
+   * convert to an xml string
+   */
+  public function toXML()
+  {
+    // TODO: Implement toXML() method.
+  }
 }

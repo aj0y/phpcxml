@@ -8,5 +8,14 @@ namespace cxml\requestheaders;
  */
 class Header
 {
+  /** @var string  */
+  protected $xml = '';
 
+  /**
+   * @return string
+   */
+  public function toXML()
+  {
+    return '';
+  }
 }

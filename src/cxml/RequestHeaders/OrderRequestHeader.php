@@ -8,5 +8,11 @@ namespace cxml\requestheaders;
  */
 class OrderRequestHeader extends Header
 {
-
+  /**
+   * @return string
+   */
+  public function toXML()
+  {
+    return '';
+  }
 }

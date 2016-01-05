@@ -6,7 +6,16 @@ namespace cxml\entities;
  * Class Entity
  * @package cxml\entities
  */
-class Entity
+abstract class Entity
 {
+  /** @var string */
+  protected $xml = '';
+
+  /**
+   * @return mixed
+   */
+  abstract public function toXML();
+
+
 
 }
