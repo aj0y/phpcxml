@@ -1,0 +1,21 @@
+{
+  "name": "beethoven/phpxml",
+    "description": "A PHP library to generate and request cXML.",
+    "keywords": ["php","cxml","procurement","ariba","supply-chain","vendor"],
+    "version": "0.0.1-alpha",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Ajoy Sojan"
+      }
+    ],
+    "require": {
+      "php": ">=5.6",
+      "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+      "psr-4": { 
+        "phpcxml\\": "src/"
+      }
+    }
+}
