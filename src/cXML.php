@@ -15,11 +15,11 @@ use cxml\requests\Request;
  */
 class CXML
 {
-	/** @var string */
-	private $xml = '';
+  /** @var string */
+  private $xml = '';
 
-	/** @var array associative array of objects representing xml hierarchy */
-	private $xmlTree = array();
+  /** @var array associative array of objects representing xml hierarchy */
+  private $xmlTree = array();
 
   /** @var Header */
   private $header;
@@ -27,28 +27,25 @@ class CXML
   /** @var Request */
   private $request;
 
-	/**
-	 * converts the internal associate array representation into a valid xml string
-	 * @return string
-	 */
-	public function toXML()
-	{
-		return "";
-	}
+  /**
+   * converts the internal object representation into a valid xml string
+   * @return string
+   */
+  public function toXML()
+  {
+    return "";
+  }
 
-	private function generateHeader()
-	{
-
-	}
+  private function generateHeader()
+  {
+  }
 
   public function addHeader(Header $header)
   {
-
   }
 
   public function addRequest(Request $Request)
   {
-
   }
 
   /**
