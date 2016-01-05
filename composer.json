@@ -1,5 +1,5 @@
 {
-  "name": "beethoven/phpxml",
+  "name": "beethoven/phpcxml",
     "description": "A PHP library to generate and request cXML.",
     "keywords": ["php","cxml","procurement","ariba","supply-chain","vendor"],
     "version": "0.0.1-alpha",
